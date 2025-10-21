@@ -94,20 +94,20 @@ public class CekNomorFrame extends javax.swing.JFrame {
                 .addContainerGap())
         );
 
-        jLabel2.setFont(new java.awt.Font("Doctor Glitch", 0, 14)); // NOI18N
-        jLabel2.setText("Masukkan angka ");
+        jLabel2.setFont(new java.awt.Font("Milky Nice", 0, 18)); // NOI18N
+        jLabel2.setText("Masukkan angka : ");
 
-        jLabel3.setFont(new java.awt.Font("Doctor Glitch", 0, 18)); // NOI18N
-        jLabel3.setText("hasil ");
+        jLabel3.setFont(new java.awt.Font("Milky Nice", 0, 18)); // NOI18N
+        jLabel3.setText("hasil :");
 
-        jTextField1.setFont(new java.awt.Font("Doctor Glitch", 0, 14)); // NOI18N
+        jTextField1.setFont(new java.awt.Font("Milky Nice", 0, 14)); // NOI18N
         jTextField1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField1ActionPerformed(evt);
             }
         });
 
-        jButton1.setFont(new java.awt.Font("Doctor Glitch", 0, 12)); // NOI18N
+        jButton1.setFont(new java.awt.Font("Milky Nice", 0, 18)); // NOI18N
         jButton1.setText("cek");
         jButton1.addFocusListener(new java.awt.event.FocusAdapter() {
             public void focusGained(java.awt.event.FocusEvent evt) {
@@ -125,7 +125,7 @@ public class CekNomorFrame extends javax.swing.JFrame {
             }
         });
 
-        jTextField3.setFont(new java.awt.Font("Doctor Glitch", 0, 14)); // NOI18N
+        jTextField3.setFont(new java.awt.Font("Milky Nice", 0, 14)); // NOI18N
         jTextField3.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jTextField3ActionPerformed(evt);
@@ -182,7 +182,7 @@ public class CekNomorFrame extends javax.swing.JFrame {
                 .addComponent(jPanel1, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED)
                 .addComponent(jPanel2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(0, 27, Short.MAX_VALUE))
+                .addGap(0, 26, Short.MAX_VALUE))
         );
 
         pack();
